@@ -1,0 +1,38 @@
+.app-items{
+	text-align: left;
+	border: 1px solid #333333;
+	background-color: #fff;
+	position: absolute;
+	right: 80px;
+}
+.app-items p,.user_documents p{
+	padding: 5px;
+	color: #333;
+	font-weight: bold;
+	cursor: pointer;
+}
+.app-items p:nth-child(2){
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.app-btn,.user_docs{
+	position: relative;
+	border: none;
+	background: none;
+}
+.app-btn,.user_docs:focus{
+	border: none;
+	outline: none;
+}
+/*user-docs*/
+.user_documents{
+	position: absolute!important;
+	right: 13%;
+	text-align: left;
+	border: 1px solid #333333;
+	background-color: #fff;
+}
+.user_documents p:nth-child(2){
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
